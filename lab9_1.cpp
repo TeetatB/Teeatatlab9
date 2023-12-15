@@ -1,12 +1,16 @@
 #include<iostream>
 #include<iomanip> //For using setw(), setprecision(), ...
 using namespace std;
-
+double il;
+double iry;
+double ayp;
 int main(){	
 	cout << "Enter initial loan: ";
+	cin >> il;
 	cout << "Enter interest rate per year (%): ";
+	cin >> iry;
 	cout << "Enter amount you can pay per year: ";
-
+	cin >> ayp;
 	//use 'setw' to set width of table and 'left' to set left-alignment
 	//you can change input argument of 'setw()' to see the effect
 	//Try to change from 'left' to 'right' and see the effect
